@@ -2,6 +2,8 @@
 
 namespace DGINXREAL\FilamentIframePlugin;
 
+use DGINXREAL\FilamentIframePlugin\Commands\FilamentIframePluginCommand;
+use DGINXREAL\FilamentIframePlugin\Testing\TestsFilamentIframePlugin;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DGINXREAL\FilamentIframePlugin\Commands\FilamentIframePluginCommand;
-use DGINXREAL\FilamentIframePlugin\Testing\TestsFilamentIframePlugin;
 
 class FilamentIframePluginServiceProvider extends PackageServiceProvider
 {

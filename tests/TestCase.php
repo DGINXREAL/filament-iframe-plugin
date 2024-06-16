@@ -4,6 +4,7 @@ namespace DGINXREAL\FilamentIframePlugin\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use DGINXREAL\FilamentIframePlugin\FilamentIframePluginServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\Forms\FormsServiceProvider;
 use Filament\Infolists\InfolistsServiceProvider;
@@ -13,7 +14,6 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use DGINXREAL\FilamentIframePlugin\FilamentIframePluginServiceProvider;
 
 class TestCase extends Orchestra
 {
