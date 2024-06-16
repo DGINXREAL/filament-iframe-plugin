@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace DGINXREAL\FilamentIframePlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentIframePluginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-iframe-plugin';
 
     public $description = 'My command';
 
